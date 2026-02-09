@@ -22,7 +22,8 @@ int WINAPI WinMain(
     HINSTANCE hInst,
     HINSTANCE hPrevInstance,
     LPSTR lpCmdLine,
-    int nShowCmd)
+    int nShowCmd
+)
 {
     WNDCLASS wc = {sizeof(WNDCLASS)};
     
