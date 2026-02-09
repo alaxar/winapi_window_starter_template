@@ -48,6 +48,8 @@ int WINAPI WinMain(
             TranslateMessage(&msg);
             DispatchMessage(&msg);
         }
+
+        // your game loop or logic goes here.
     }
     return (int)msg.wParam;
 }
